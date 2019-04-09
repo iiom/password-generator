@@ -13,3 +13,4 @@ config_file[:upercase] ? arr << [*"A".."Z"] : nil
 config_file[:special_characters] ? arr << [*SPECIAL_CHARS] : nil
 
 puts Array.new(length){arr.flatten.sample}.join
+
